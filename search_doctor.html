@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Doctor - Medcare Life</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="patient.html" class="nav-btn">⬅ Back to Dashboard</a>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h2>Search Doctor by Category</h2>
+        <select id="category">
+            <option value="Cardiologist">Cardiologist</option>
+            <option value="Dentist">Dentist</option>
+            <option value="Neurologist">Neurologist</option>
+        </select>
+        <button class="form-btn" onclick="searchDoctor()">Search</button>
+        <div id="search-results"></div>
+    </section>
+
+    <script src="../assets/js/patient.js"></script>
+</body>
+</html>

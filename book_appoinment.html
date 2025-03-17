@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Medcare Life</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="patient.html" class="nav-btn">⬅ Back to Dashboard</a>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h2>Book an Appointment</h2>
+        <input type="text" id="doctor-id" placeholder="Enter Doctor ID">
+        <input type="date" id="appointment-date">
+        <input type="time" id="appointment-time">
+        <textarea id="symptoms" placeholder="Describe your symptoms"></textarea>
+        <button class="form-btn" onclick="bookAppointment()">Book Now</button>
+    </section>
+
+    <script src="../assets/js/patient.js"></script>
+</body>
+</html>
