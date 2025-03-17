@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard - Medcare Life</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Medcare Life</div>
+            <span class="user-info">Logged in as: <strong>Dr. Smith</strong></span>
+            <nav>
+                <a href="appoinments.html" class="nav-btn">Appointments</a>
+                <a href="prescribe.html" class="nav-btn">Prescribe Medicine</a>
+                <a href="patient_history.html" class="nav-btn">Patient History</a>
+                <a href="edit_profile.html" class="nav-btn">Profile</a>
+                <a href="login.html" class="nav-btn">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h2>Doctor Dashboard</h2>
+        <div class="dashboard-cards">
+            <div class="card">
+                <h3>Upcoming Appointments</h3>
+                <table>
+                    <tr><th>Patient</th><th>Date</th><th>Time</th></tr>
+                    <tr><td>John Doe</td><td>2025-03-20</td><td>10:30 AM</td></tr>
+                </table>
+            </div>
+            <div class="card">
+                <h3>Prescribe Medicine</h3>
+                <input type="text" placeholder="Patient ID">
+                <textarea placeholder="Write prescription here..."></textarea>
+                <button class="form-btn">Submit</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

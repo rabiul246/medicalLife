@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient History - Medcare Life</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="doctor.html" class="nav-btn">⬅ Back to Dashboard</a>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h2>View Patient History</h2>
+        <input type="text" id="history-patient-id" placeholder="Enter Patient ID">
+        <button class="form-btn" onclick="fetchPatientHistory()">Search</button>
+        <div id="history-results"></div>
+    </section>
+
+    <script src="../assets/js/doctor.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard - Medcare Life</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">Medcare Life</div>
+            <span class="user-info">Logged in as: <strong>John Doe</strong></span>
+            <nav>
+                <a href="#" class="nav-btn">Doctor List</a>
+                <a href="#" class="nav-btn">Book Appointment</a>
+                <a href="#" class="nav-btn">Medical History</a>
+                <a href="edit_profile.html" class="nav-btn">Profile</a>
+                <a href="login.html" class="nav-btn">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <h2>Patient Dashboard</h2>
+        <div class="dashboard-cards">
+            <div class="card">
+                <h3>Search for Doctor</h3>
+                <input type="text" placeholder="Enter specialty">
+                <button class="form-btn">Search</button>
+            </div>
+            <div class="card">
+                <h3>Your Medical History</h3>
+                <table>
+                    <tr><th>Diagnosis</th><th>Date</th><th>Doctor</th></tr>
+                    <tr><td>Hypertension</td><td>2025-02-10</td><td>Dr. Smith</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
